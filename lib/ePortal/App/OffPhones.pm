@@ -12,7 +12,7 @@
 
 
 package ePortal::App::OffPhones;
-    our $VERSION = '4.1';
+    our $VERSION = '4.2';
     use base qw/ePortal::Application/;
 
     use Text::Wrap;

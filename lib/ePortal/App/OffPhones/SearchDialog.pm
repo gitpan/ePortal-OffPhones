@@ -11,7 +11,7 @@
 #----------------------------------------------------------------------------
 
 package ePortal::App::OffPhones::SearchDialog;
-    our $VERSION = '4.1';
+    our $VERSION = '4.2';
 	use base qw/ePortal::ThePersistent::Dual/;
 
 	use ePortal::Global;

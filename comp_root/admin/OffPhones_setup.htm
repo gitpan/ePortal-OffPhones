@@ -15,9 +15,7 @@
     <& SELF:dialog_dbi_fields &>
 
 <&| /dialog.mc:cell &><hr width ="50%"></&>
-% foreach my $field (qw/xacl_write/) {
-  <& /dialog.mc:field, name => $field &>
-% }
+<& /dialog.mc:field, name => 'xacl_write', -values => [qw/ admin everyone uid gid registered /]&>
 
   <& /dialog.mc:buttons &>
 </&>

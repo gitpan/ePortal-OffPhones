@@ -29,3 +29,4 @@ lib/ePortal/App/OffPhones/PhoneMemo.pm
 lib/ePortal/App/OffPhones/PhoneType.pm
 lib/ePortal/App/OffPhones/SearchDialog.pm
 target
+META.yml                                 Module meta-data (added by MakeMaker)
